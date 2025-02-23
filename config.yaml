@@ -1,0 +1,15 @@
+precompute:
+  key_range: "630881282295728000000000:1261762564591456000000000"
+  storage_path: "./precompute/lookup_table.bin"
+  batch_size: 1000000  # Number of keys to generate per batch
+
+search:
+  target_public_key: "02145d2611c823a396ef6712ce0f712f09b9b4f3135e3e0aa3230fb9b6d08d1e16"
+
+gpu:
+  use_cuda: true
+  device: "cuda"
+  batch_size: 1024
+
+monitoring:
+  dashboard_port: 5000

@@ -1,0 +1,9 @@
+flask
+dash
+psutil
+boto3
+cryptography
+ecdsa
+numpy
+matplotlib
+scipy
